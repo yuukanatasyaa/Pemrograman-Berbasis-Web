@@ -1,0 +1,12 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption {
+    margin-bottom: 8px;
+    font-size: larger;
+    font-weight: 500;
+}
+ table {
+    border-collapse: collapse;
+ }

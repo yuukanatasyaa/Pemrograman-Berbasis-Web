@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.by, .category {
+    font-size: 10px;
+}
+
+.category, .strawberries, .research, .by {
+    text-align: center;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.strawberries, .research {
+    line-height: 0.5;
+}
+
+.daftar {
+    font-weight: 500;
+    line-height: 0;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+p span {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.paragraf3 {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+cite {
+    color: gray;
+    margin-top: 0px;
+}

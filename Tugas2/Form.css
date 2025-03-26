@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20 px;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px;
+}
+
+.container header {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container form {
+    margin-top: 30px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .input-box input {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form .text-area {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form .text-area textarea {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form .jenis-kelamin {
+    margin-top: 20px;
+}
+
+.form .jenis-kelamin input {
+    position: relative;
+    height: 10px;
+    margin-top: 10px;
+    accent-color: blue;
+}
+
+.form .prodi {
+    margin-top: 20px;
+}
+
+.form .prodi select {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.form button {
+    margin-top: 20px;
+    color: whitesmoke;
+    background: blue;
+    padding: 6px 15px;
+    border: 1px;
+}

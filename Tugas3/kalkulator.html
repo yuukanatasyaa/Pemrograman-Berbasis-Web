@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <style>
+        .container {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .col-2 {
+            display: flex;
+            align-items: center;
+        }
+
+        #hasilOperatorAritmatika {
+            display: inline-block;
+            text-align: center;
+            margin-bottom: 17.5px;
+            gap: 20px;
+            min-width: 60px;
+        }
+
+        .tombol {
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h2>Kalkulator</h2>
+    </div>
+
+    <div class="container">
+        <div class="col-2">
+            <input type="number" name="aritmatikaAngka1" id="aritmatikaAngka1" placeholder="Angka 1">
+        </div>
+
+        <div class="col-2">
+            <select name="operatorAritmatika" id="operatorAritmatika">
+                <option selected value="+">+</option>
+                <option selected value="-">-</option>
+                <option selected value="*">*</option>
+                <option selected value="/">/</option>
+                <option selected value="%">%</option>
+                <option selected disabled>Pilih Operator</option>
+            </select>
+        </div>
+
+        <div class="col-2">
+            <input type="number" name="aritmatikaAngka2" id="aritmatikaAngka2" placeholder="Angka 2">
+        </div>
+
+        <div class="col-2">
+            <button class="tombol" type="button" id="buttonAritmatika">Enter</button>
+
+            <span class="container" id="hasilOperatorAritmatika">Hasil</span>
+        </div>
+    </div>
+
+    <script src="kalkulator.js"></script>
+</body>
+</html>

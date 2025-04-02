@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Yuuka</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+     <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Yuuka's Portfolio</a>
+
+        <i class='bx bx-menu' id="beranda-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Beranda</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#prestasi">Prestasi</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Yuuka Natasya Aji</h1>
+            <h3>And I'm a 
+                <span style="--i:4;" data-text="Student">Student</span>
+                <span style="--i:3;" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:2;" data-text="Data Analyst">Data Analyst</span>
+                <span style="--i:1;" data-text="Programmer">Programmer</span>
+            </h3>
+            <p>Saya merupakan seorang mahasiswi aktif semester 4, jurusan Sistem Informasi, Fakultas Ilmu Komputer, Universitas Singaperbangsa Karawang. Saya memiliki keterampilan dalam bidang data analyst, pemrograman, dan website. Saya lahir di Bekasi pada tanggal 24 Desember 2004. Saat ini saya berdomisili di Cikarang.</p>
+            <div class="social-media">
+                <a href="yuukanatasya@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.instagram.com/yuukaaa.na?igsh=Mndwcjdxa2R4MGt6"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://x.com/natsyaxss?t=TvP_C7PDlAHv43fGzPDgAQ&s=09"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.tiktok.com/@yuukaaana_?_t=ZS-8v5i89BVQCe&_r=1"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="FotoYuuka.png" alt="Yuuka">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>Frontend Project</h3>
+                    <p>Pada Tugas Pemrograman Berbasis Web kali ini kami ditugaskan untuk membuat beberapa web seperti galeri sederhana dengan enam foto yang menerapkan gambar di dalamnya, lalu tabel mahasiswa yang berisi absensi dan nilai, kemudian form pendaftaran bagi mahasiswa baru yang menerapkan checkbox dan button.</p>
+                    <div class="tech">
+                        <p>HTML & CSS</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Frontend Project</h3>
+                    <p>Pada Tugas Pemrograman Berbasis Web selanjutnya kami ditugaskan untuk membuat beberapa web seperti Beranda web dengan nama "Fruit" yang menerapkan grid, kemudian masih di web yang sama kami diminta untuk membuat form "Contact Me" dengan menerapkan button. Selain itu kami diminta untuk membuat kalkulator sederhana dengan empat operator.</p>
+                    <div class="tech">
+                        <p>HTML, CSS, Bootsrap, JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>E-Business Project</h3>
+                    <p>Pada Tugas E-Business ini, kami diminta untuk membuat sebuah proposal tentang suatu aplikasi yang berhubungan dengan keuangan, pada proposal ini kami menerapkan teknologi "Fintech" di dalamnya. Di dalam proposal ini juga sudah tertera mockup dari aplikasi kami yang kami namakan "Fundeo".</p>
+                    <div class="tech">
+                        <p>UI/UX, Fintech</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>E-Business Project</h3>
+                    <p>Pada Tugas E-Business selanjutnya kami diminta untuk merancang sebuah proposal suatu aplikasi dengan tema bebas, pada proposal ini kami mengangkat tema kecantikan dan kesehatan. Di dalam proposal tersebut telah berisi mockup aplikasi yang kami buat dengan beberapa fitur menarik. Aplikasi ini kami namakan dengan "Zuyfa".</p>
+                    <div class="tech">
+                        <p>UI/UX</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="Portfolio1.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="Portfolio2.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="Portfolio3.png">
+                        </div>
+                        <div class="img-item">
+                            <img src="Portfolio4.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left'></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="prestasi" id="prestasi">
+        <h2 class="heading">My <span>Achievements</span></h2>
+    
+        <div class="prestasi-container">
+            <div class="prestasi-box">
+                <img src="Prestasi1.jpg">
+                <div class="prestasi-layer">
+                    <h4>Ketua Pelaksana LKMM-PD 2024</h4>
+                    <p>Latihan Keterampilan Manajemen Mahasiswa Pra-Dasar (LKMM-PD) merupakan program kerja kaderisasi HIMSIKA yang bertujuan untuk melatih kepemimpinan mahasiswa baru.</p>
+                </div>
+            </div>
+    
+            <div class="prestasi-box">
+                <img src="Prestasi2.jpg">
+                <div class="prestasi-layer">
+                    <h4>Sekretaris Pelaksana Edufair 2024</h4>
+                    <p>Education Fair merupakan program kerja HIMSKA yang terdiri dari beberapa event yaitu, Seminar Workshop Nasional, Lomba Nasional, Talkshow, dan Pameran.</p>
+                </div>
+            </div>
+    
+            <div class="prestasi-box">
+                <img src="Prestasi3.jpg">
+                <div class="prestasi-layer">
+                    <h4>Bendahara Pelaksana ISGATH 2024</h4>
+                    <p>Information System Gathering merupakan program kerja kaderisasi terakhir HIMSIKA yang bertujuan untuk mempererat rasa kekeluarrgaan dan kebersamaan bagi mahasiswa baru</p>
+                </div>
+            </div>
+    
+            <div class="prestasi-box">
+                <img src="Prestasi4.png">
+                <div class="prestasi-layer">
+                    <h4>Peserta Study Club Bidang Data Analyst</h4>
+                    <p>Study Club merupakan komunitas yang berfungsi sebagai wadah bagi Mahasiswa Sistem Informasi untuk memperluas wawasan dan meningkatkan keterampilan diberbagai bidang IT.</p>
+                </div>
+            </div>
+    
+            <div class="prestasi-box">
+                <img src="Prestasi5.png">
+                <div class="prestasi-layer">
+                    <h4>Peserta Study Club Bidang Frontend Development</h4>
+                    <p>Study Club merupakan komunitas yang berfungsi sebagai wadah bagi Mahasiswa Sistem Informasi untuk memperluas wawasan dan meningkatkan keterampilan diberbagai bidang IT.</p>
+                </div>
+            </div>
+    
+            <div class="prestasi-box">
+                <img src="Prestasi6.jpg">
+                <div class="prestasi-layer">
+                    <h4>Pemateri AAS (Statistika Probabilitas)</h4>
+                    <p>Academic Achievement Support merupakan wadah bagi Mahasiwa Sistem Informasi untuk mendapatkan pemahaman lebih terhadap akademiknya seperti mengadakan review materi.</p>
+                </div>
+            </div>
+        </div> 
+    </section>    
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Have a quick question? Fill out this form. I am very approachable and would love to connect with you. Feel free to call and send me an email, and i will get back to you as soon as possible. </p>
+                <div class="contact-detail">
+                    <i class="bx bxs-phone"></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+62) 896 4316 9832</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="bx bxs-envelope"></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>yuukanatasya@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class="bx bxs-map"></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Perumahan Telaga Pasiraya, Bekasi, Jawa Barat</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" requried>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Yuuka Nastasya | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
+    <!-- scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- custom js -->
+    <script src="Portfolio.js"></script>
+</body>
+</html>
